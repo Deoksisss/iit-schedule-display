@@ -1,0 +1,86 @@
+{
+  "groupName": "ПрИ-101",
+  "academicHours": {
+    "1": "08:00-09:30",
+    "2": "09:40-11:10",
+    "3": "11:20-12:50",
+    "4": "13:00-14:30",
+    "5": "14:40-16:10",
+    "6": "16:20-17:50",
+    "7": "18:00-19:30",
+    "8": "19:40-21:10"
+  },
+  "lastUpdated": "2026-04-05T08:11:38.448Z",
+  "schedule": {
+    "even": {
+      "monday": [
+        {
+          "period": 2,
+          "subjectName": "Математическкий анализ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "Наугманова А.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "427"
+          },
+          "subgroup": null
+        }
+      ],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [
+        {
+          "period": 3,
+          "subjectName": "Физра",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "Панькин",
+          "location": {
+            "building": 1,
+            "auditorium": "Манеж"
+          },
+          "subgroup": null
+        }
+      ],
+      "friday": [],
+      "saturday": [],
+      "sunday": []
+    },
+    "odd": {
+      "monday": [
+        {
+          "period": 2,
+          "subjectName": "Математическкий анализ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "Наугманова А.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "427"
+          },
+          "subgroup": null
+        }
+      ],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [
+        {
+          "period": 3,
+          "subjectName": "Физра",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "Панькин",
+          "location": {
+            "building": 1,
+            "auditorium": "Манеж"
+          },
+          "subgroup": null
+        }
+      ],
+      "friday": [],
+      "saturday": [],
+      "sunday": []
+    }
+  }
+}

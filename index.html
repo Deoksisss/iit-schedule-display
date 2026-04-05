@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просмотр расписания</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Расписание занятий</h1>
+        
+        <div class="controls">
+            <select id="groupSelect">
+                <option value="" disabled selected>Выберите группу...</option>
+                <option value="pri-101.json">ПрИ-101</option>
+                <option value="pri-102.json">ПрИ-102</option>
+                <option value="bi-101.json">БИ-101</option>
+                <option value="pi-101.json">ПИ-101</option>
+            </select>
+            
+            <div class="week-toggle">
+                <button id="btnOdd" class="active">Нечётная неделя</button>
+                <button id="btnEven">Чётная неделя</button>
+            </div>
+        </div>
+
+        <div id="scheduleContainer" class="schedule-container">
+            <p class="placeholder">Пожалуйста, выберите группу для просмотра расписания.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

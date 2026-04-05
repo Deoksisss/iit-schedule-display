@@ -1,0 +1,117 @@
+:root {
+    --primary-red: #d32f2f;
+    --dark-red: #9a0007;
+    --bg-color: #f5f5f5;
+    --card-bg: #ffffff;
+    --text-main: #333333;
+    --text-muted: #666666;
+    --border-radius: 8px;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    color: var(--dark-red);
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+select {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.week-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.week-toggle button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: var(--text-main);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.week-toggle button.active {
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.day-block {
+    margin-bottom: 25px;
+}
+
+.day-block h2 {
+    color: var(--dark-red);
+    border-bottom: 2px solid var(--primary-red);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.class-card {
+    background: var(--card-bg);
+    border-left: 4px solid var(--primary-red);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.class-time {
+    font-size: 0.85rem;
+    color: var(--primary-red);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.class-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.class-details {
+    color: var(--text-muted);
+}
+
+.placeholder, .empty, .loading, .error {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+.error { color: var(--primary-red); }
