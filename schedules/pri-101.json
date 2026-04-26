@@ -10,51 +10,237 @@
     "7": "18:00-19:30",
     "8": "19:40-21:10"
   },
-  "lastUpdated": "2026-04-05T08:11:38.448Z",
+  "lastUpdated": "2026-04-26T17:14:42.635Z",
   "schedule": {
     "even": {
       "monday": [
         {
-          "period": 2,
-          "subjectName": "Математическкий анализ",
-          "type": "practice",
-          "typeName": "Практика",
-          "teacher": "Наугманова А.В.",
-          "location": {
-            "building": 1,
-            "auditorium": "427"
-          },
-          "subgroup": null
-        }
-      ],
-      "tuesday": [],
-      "wednesday": [],
-      "thursday": [
-        {
           "period": 3,
           "subjectName": "Физра",
-          "type": "lecture",
-          "typeName": "Лекция",
-          "teacher": "Панькин",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "ПАНЬКИН В.Е.",
+          "location": {
+            "building": 3,
+            "auditorium": "Подвал"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 4,
+          "subjectName": "ДИСКРЕТНАЯ МАТЕМАТИКА",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "ЗЕМЦОВА Е.М.",
           "location": {
             "building": 1,
-            "auditorium": "Манеж"
+            "auditorium": "326"
           },
           "subgroup": null
         }
       ],
-      "friday": [],
+      "tuesday": [
+        {
+          "period": 2,
+          "subjectName": "ИНОСТРАННЫЙ ЯЗЫК",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "САВКО П.В",
+          "location": {
+            "building": 1,
+            "auditorium": "011"
+          },
+          "subgroup": 1
+        },
+        {
+          "period": 3,
+          "subjectName": "ИНОСТРАННЫЙ ЯЗЫК",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "САВКО П.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "013"
+          },
+          "subgroup": 2
+        },
+        {
+          "period": 4,
+          "subjectName": "ИНОСТРАННЫЙ ЯЗЫК",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "САВКО П.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "013"
+          },
+          "subgroup": 2
+        }
+      ],
+      "wednesday": [
+        {
+          "period": 4,
+          "subjectName": "ИСТОРИЯ РОССИИ",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "РЫБАЛКО А.А.",
+          "location": {
+            "building": 1,
+            "auditorium": "А-17"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 5,
+          "subjectName": "АРХИТЕКТУРА ВЫЧИСЛИТЕЛЬНЫХ СИСТЕМ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "СКРИПОВ С.А.",
+          "location": {
+            "building": 1,
+            "auditorium": "132А"
+          },
+          "subgroup": null
+        }
+      ],
+      "thursday": [],
+      "friday": [
+        {
+          "period": 1,
+          "subjectName": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ.ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ  УРАВНЕНИЯ",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "ШАЙХУЛЛИНА П.А.",
+          "location": {
+            "building": 1,
+            "auditorium": "А-17"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 2,
+          "subjectName": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ.ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "НАГУМАНОВА А.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "432"
+          },
+          "subgroup": null
+        }
+      ],
       "saturday": [],
       "sunday": []
     },
     "odd": {
       "monday": [
         {
-          "period": 2,
-          "subjectName": "Математическкий анализ",
+          "period": 3,
+          "subjectName": "ДИСКРЕТНАЯ МАТЕМАТИКА ",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "ЗЕМЦОВА Е.М.",
+          "location": {
+            "building": 0,
+            "auditorium": "А-17"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 4,
+          "subjectName": "ДИСКРЕТНАЯ МАТЕМАТИКА",
           "type": "practice",
           "typeName": "Практика",
-          "teacher": "Наугманова А.В.",
+          "teacher": "ЗЕМЦОВА Е.М.",
+          "location": {
+            "building": 1,
+            "auditorium": "326"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 5,
+          "subjectName": "ДИСКРЕТНАЯ МАТЕМАТИКА ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "ЗЕМЦОВА Е.М.",
+          "location": {
+            "building": 1,
+            "auditorium": "326"
+          },
+          "subgroup": null
+        }
+      ],
+      "tuesday": [
+        {
+          "period": 1,
+          "subjectName": "ИНОСТРАННЫЙ ЯЗЫК",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "САВКО П.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "011"
+          },
+          "subgroup": 1
+        },
+        {
+          "period": 2,
+          "subjectName": "ИНОСТРАННЫЙ ЯЗЫК",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "САВКО П.В",
+          "location": {
+            "building": 1,
+            "auditorium": "011"
+          },
+          "subgroup": 1
+        },
+        {
+          "period": 3,
+          "subjectName": "ИНОСТРАННЫЙ ЯЗЫК",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "САВКО П.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "013"
+          },
+          "subgroup": 2
+        }
+      ],
+      "wednesday": [
+        {
+          "period": 4,
+          "subjectName": "АРХИТЕКТУРА ВЫЧИСЛИТЕЛЬНЫХ СИСТЕМ",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "СКРИПОВ С.А.",
+          "location": {
+            "building": 1,
+            "auditorium": "А-17"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 5,
+          "subjectName": "АРХИТЕКТУРА ВЫЧИСЛИТЕЛЬНЫХ СИСТЕМ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "СКРИПОВ С.А.",
+          "location": {
+            "building": 1,
+            "auditorium": "132А"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 6,
+          "subjectName": "ИСТОРИЯ РОССИИ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "БЫКОВА В.В.",
           "location": {
             "building": 1,
             "auditorium": "427"
@@ -62,23 +248,45 @@
           "subgroup": null
         }
       ],
-      "tuesday": [],
-      "wednesday": [],
-      "thursday": [
+      "thursday": [],
+      "friday": [
+        {
+          "period": 1,
+          "subjectName": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ.ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ  УРАВНЕНИЯ",
+          "type": "lecture",
+          "typeName": "Лекция",
+          "teacher": "ШАЙХУЛЛИНА П.А.",
+          "location": {
+            "building": 1,
+            "auditorium": "А-17"
+          },
+          "subgroup": null
+        },
+        {
+          "period": 2,
+          "subjectName": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ.ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ",
+          "type": "practice",
+          "typeName": "Практика",
+          "teacher": "НАГУМАНОВА А.В.",
+          "location": {
+            "building": 1,
+            "auditorium": "432"
+          },
+          "subgroup": null
+        },
         {
           "period": 3,
           "subjectName": "Физра",
           "type": "lecture",
           "typeName": "Лекция",
-          "teacher": "Панькин",
+          "teacher": "ПАНЬКИН В.Е.",
           "location": {
-            "building": 1,
-            "auditorium": "Манеж"
+            "building": 3,
+            "auditorium": "Подвал"
           },
           "subgroup": null
         }
       ],
-      "friday": [],
       "saturday": [],
       "sunday": []
     }
